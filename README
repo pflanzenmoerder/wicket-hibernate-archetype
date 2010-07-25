@@ -1,0 +1,10 @@
+This archetype will create a Maven project with the following characteristics:
+
+- Everything is configured using Spring 3
+- Hibernate 3.5 is used for persistence
+- Example classes using JPA-style annotations
+- Example DAOs and base classes for CRUD-operations
+
+Have Fun,
+
+Jochen Mader
