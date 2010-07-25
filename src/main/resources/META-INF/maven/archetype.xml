@@ -1,0 +1,31 @@
+<archetype
+	xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+	<id>wicket-hibernate-archetype</id>
+	<sources>
+		<source>src/main/java/api/GenericDAO.java</source>			
+		<source>src/main/java/api/GenericHibernateDAO.java</source>
+		<source>src/main/java/services/HelloWorldService.java</source>
+		<source>src/main/java/services/impl/HelloWorldServiceImpl.java</source>
+		<source>src/main/java/services/TestEntityBusinessService.java</source>
+		<source>src/main/java/services/impl/TestEntityBusinessServiceImpl.java</source>
+ 		<source>src/main/java/entities/TestEntity.java</source>
+ 		<source>src/main/java/dao/TestEntityDAO.java</source>
+ 		<source>src/main/java/HomePage.html</source>
+ 		<source>src/main/java/WicketApplication.java</source>
+ 		<source>src/main/java/HomePage.java</source>
+	</sources>
+	<resources>
+		<resource>src/main/resources/log4j.properties</resource>
+		<resource>src/main/resources/spring-web.xml</resource>
+		<resource>src/main/webapp/WEB-INF/web.xml</resource>
+	</resources>
+	<testSources>
+		<source>src/test/java/Start.java</source>
+		<source>src/test/java/TestHomePage.java</source>
+	</testSources>
+	<testResources>
+		<resource>src/test/resources/spring-web.xml</resource>
+	</testResources>
+</archetype>
