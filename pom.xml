@@ -4,6 +4,6 @@
 	<groupId>de.pflanzenmoerder</groupId>
 	<artifactId>wicket-hibernate-archetype</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>Wicket-Hibernate Archetype</name>
 </project>
