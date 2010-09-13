@@ -3,7 +3,25 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.pflanzenmoerder</groupId>
 	<artifactId>wicket-hibernate-archetype</artifactId>
-	<packaging>jar</packaging>
-	<version>1.0</version>
+	<packaging>maven-archetype</packaging>
+	<version>1.0-SNAPSHOT</version>
 	<name>Wicket-Hibernate Archetype</name>
+	<build>
+		<extensions>
+			<extension>
+				<groupId>org.apache.maven.archetype</groupId>
+				<artifactId>archetype-packaging</artifactId>
+				<version>2.0-alpha-5</version>
+			</extension>
+		</extensions>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<artifactId>maven-archetype-plugin</artifactId>
+					<version>2.0-alpha-5</version>
+					<extensions>true</extensions>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
 </project>
